@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Songs that remind me of you</h1>
+    <h3>(kinda gay)</h3>
+
+    <div class="progress-bar">
+  <div id="progress"></div>
+</div>
+
+
+
+    <!-- Lista de músicas -->
+    <div class="playlist">
+      <div class="track" data-src="audio/seasons.mp3">
+        <img src="img/season.jpg" alt="Seasons">
+        <div class="info">
+          <h3>Seasons</h3>
+          <p>Wave to Earth</p>
+        </div>
+      </div>
+
+      <div class="track" data-src="audio/goldenhour.mp3">
+        <img src="img/goldenhour.jpg" alt="Golden Hour">
+        <div class="info">
+          <h3>Golden Hour</h3>
+          <p>JVKE</p>
+        </div>
+      </div>
+
+      <div class="track" data-src="audio/birdsofafeather.mp3">
+        <img src="img/billie.jpg" alt="Birds of a Feather">
+        <div class="info">
+          <h3>Birds of a Feather</h3>
+          <p>Billie Eilish</p>
+        </div>
+      </div>
+
+      <div class="track" data-src="audio/lisboa.mp3">
+        <img src="img/Lisboa.jpg" alt="Lisboa">
+        <div class="info">
+          <h3>Lisboa</h3>
+          <p>Anavitoria</p>
+        </div>
+      </div>
+
+      <div class="track" data-src="audio/daylight.mp3">
+        <img src="img/Check out _Daylight_ by Taylor Swift on Amazon….jpg" alt="Daylight">
+        <div class="info">
+          <h3>Daylight</h3>
+          <p>Taylor Swift</p>
+        </div>
+      </div>
+
+       <div class="track" data-src="audio/sailorsong.mp3">
+        <img src="img/Sailor Song.jpg" alt="Sailor Song">
+        <div class="info">
+          <h3>Sailor Song</h3>
+          <p>Gigi Perez</p>
+        </div>
+      </div>
+
+       <div class="track" data-src="audio/thissideofparadise.mp3">
+        <img src="img/This Side Of Paradise.jpg" alt="tsop">
+        <div class="info">
+          <h3>This Side of Paradise</h3>
+          <p>Coyote Theory</p>
+        </div>
+      </div>
+
+       <div class="track" data-src="audio/On My Mind.mp3">
+        <img src="img/ROSÉ _﹫roses_are_rosie _ Official Instagram.jpg" alt="omm">
+        <div class="info">
+          <h3>On My Mind</h3>
+          <p>Alex Warren</p>
+        </div>
+      </div>
+
+       <div class="track" data-src="audio/darkred.mp3">
+        <img src="img/dark red - steve lacy.jpg" alt="darkred">
+        <div class="info">
+          <h3>Dark Red</h3>
+          <p>Steve Lacy</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles -->
+    <div class="player">
+      <button id="prev">⏮</button>
+      <button id="play">▶</button>
+      <button id="pause">⏸</button>
+      <button id="next">⏭</button>
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+    </div>
+
+    <div id="now-playing">Nenhuma música tocando</div>
+
+    
+
+    <!-- Elemento de áudio -->
+    <audio id="audio"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
